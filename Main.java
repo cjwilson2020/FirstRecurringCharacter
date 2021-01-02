@@ -33,7 +33,8 @@ class Main {
         if (map.containsKey(a[i])){
           // System.out.println(a[i]+" found in HashMap!");
           // System.out.println("Value: " + map.get(a[i]));
-          map.put(a[i], map.get(a[i]) + 1);
+          map.put(a[i], map.get(a[i]) + 1); //This is just for further implementation
+          // where the hashtable is storing the count of all of the repetitions for each unique element in the array
           cnt = 0;
          // System.out.println("New value: " + map.get(a[i]));
           return a[i];
