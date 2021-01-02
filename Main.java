@@ -16,7 +16,7 @@ class Main {
     Integer[] a2 = {2,1,1,2,3,5,1,2,4};
     Integer[] a3 = {2,3,4,5};
 
-    Integer first = getFirstRepeat(a1);
+    Integer first = getFirstRepeat(a1); //O(n)
     if (first == null){
       System.out.println("No repeating numbers found\ngetFirstRepeat returned " + first);
     }else{
